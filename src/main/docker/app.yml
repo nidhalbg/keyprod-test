@@ -1,0 +1,6 @@
+version: '2'
+services:
+  keyprod-app:
+    build: ../../..
+    container_name: keyprod-app
+    environment:

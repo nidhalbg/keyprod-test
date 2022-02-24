@@ -1,0 +1,12 @@
+version: '2'
+services:
+  todos-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/todos/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 35432:5432

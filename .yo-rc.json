@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "orders",
+    "packageName": "com.jhipster.node",
+    "packageFolder": "com/jhipster/node",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "sqlite",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1604582552900,
+    "testFrameworks": [],
+    "jhiPrefix": "keyprod",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "1.2.0"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "1.2.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
